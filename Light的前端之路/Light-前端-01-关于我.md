@@ -12,7 +12,7 @@ Who am I？这是个哲学问题。。
 
 直接丢出来微信先（微信号：**rcgrcg**），欢迎交友～
 
-<img src='http://i1.bvimg.com/654396/29a6a4990f4de50c.png' width='300'>
+![微信号 rcgrcg](http://upload-images.jianshu.io/upload_images/2180775-5b1b27daf44d6b93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
 
 我会拉个群方便大家交流～群名称我都想好了！！=> Light前端联盟（是不是很酷，嘻嘻）
 
@@ -52,7 +52,7 @@ Who am I？这是个哲学问题。。
 
 补一张知识体系图，比较简陋，后面会**不断更新**：
 
-<img src='http://i2.bvimg.com/654396/b510901c28d2d753.png'>
+![知识体系图](http://i2.bvimg.com/654396/b510901c28d2d753.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
 ### 对自己的要求
 
