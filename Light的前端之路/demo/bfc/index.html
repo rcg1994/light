@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BFC demo</title>
+    <style>
+        html,body, hr{
+            margin: 0;
+            padding: 0;
+        }
+        hr{
+            border: none;
+            height: 2px;
+            background: rgb(255, 201, 102);
+        }
+        h3, h4{
+            padding: 0;
+            margin: 5px 0;
+        }
+        .box{
+            height: 40px;
+            width: 100%;
+            background: #eee;
+        }
+        .inlineBolck{
+            display: inline-block;
+        }
+        .mt10{
+            margin-top: 10px
+        }
+        .mt20{
+            margin-top: 20px
+        }
+        .mt30{
+            margin-top: 30px
+        }
+        .mb10{
+            margin-bottom: 10px
+        }
+        .mb20{
+            margin-bottom: 20px
+        }
+        .mb30{
+            margin-bottom: 30px
+        }
+        .bb2{
+            border-bottom: 2px solid red;
+        }
+        .floatLeft .box{
+            float: left;
+        }
+        .clearRight{
+            clear: right;
+        }
+        .clearLeft{
+            clear: left;
+        }
+        .clear{
+            clear: both;
+        }
+        .float {
+            background: #FEC68B;
+        }
+        .float div{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h3>兄弟元素的边界重叠</h3>
+    <hr />
+    <div>
+        <div class="box mb20">mb20</div>
+        <div class="box mt20">mt20</div>
+    </div>
+    <h4>BFC解决方案</h4>
+    <hr />
+    <div>
+        <div class="box mb20">mb20</div>
+        <div style="display: flex;">
+            <div class="box mt20">mt20</div>
+        </div>
+    </div>
+    <hr />
+    <h3>父子元素的边界重叠</h3>
+    <hr />
+    <div>
+        <div class="box"></div>
+        <div class="box mt10">
+            <!-- 与父级的 mt10 发生重叠 -->
+            <div class="mt10">mt10</div>
+        </div>
+    </div>
+    <hr />
+    <h4>BFC解决方案</h4>
+    <hr />
+    <div>
+        <div class="box"></div>
+        <!-- 父级建立成为一个BFC -->
+        <div class="box mt10" style="overflow: auto;">
+            <div class="mt10">mt10</div>
+        </div>
+    </div>
+    <hr />
+    <br />
+    
+    <!-- <section class="float">
+        <div>我是浮动元素</div>
+    </section> -->
+
+    <section class="float" style="overflow: auto;">
+        <div>我是浮动元素</div>
+    </section>
+
+    <br />
+
+    <section id="layout">
+        <style>
+            #layout {
+                background: red;
+            }
+            #layout .left {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background: pink;
+            }
+            #layout .right {
+                height: 110px;
+                background: #ccc;
+                overflow: auto;
+            }
+        </style>
+        <!--左边宽度固定，右边自适应-->
+        <div class="left">左</div>
+        <div class="right">右</div>
+    </section>
+</body>
+</html>

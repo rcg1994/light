@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>box-sizing demo</title>
+    <style>
+        .contentBox {
+            box-sizing: content-box;
+            width: 300px;
+            height: 200px;
+            padding: 50px;
+            border: 10px solid #000;
+            background: #eee;
+        }
+        .borderBox {
+            box-sizing: border-box;
+            width: 300px;
+            height: 200px;
+            padding: 50px;
+            border: 10px solid #000;
+            background: #eee;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contentBox">
+        <div style="width: 100%; height: 100%; background: palevioletred">
+            content-box
+        </div>
+    </div>
+    <div class="borderBox">
+        <div style="width: 100%; height: 100%; background: palevioletred">
+            border-box
+        </div>
+    </div>
+    <script>
+        let contentBox = document.getElementsByClassName('contentBox')[0]
+        console.log(contentBox.offsetWidth)
+        let borderBox = document.getElementsByClassName('borderBox')[0]
+        console.log(borderBox.offsetWidth)
+    </script>
+</body>
+</html>
