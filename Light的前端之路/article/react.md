@@ -17,3 +17,13 @@
   > 文章介绍：文章围绕`setState`是否为"异步"这一命题开始研究和探讨。通过对 React 源码执行逻辑的整理和理解，介绍了不同场景下`setState`的使用以及其机制，让读者能更深刻得理解到`setState`异步更新机制，以及不同场景，是异步还是同步更新的真正原因。
   >
   > 推荐指数：🌟🌟🌟🌟🌟
+
+* [浅出深入setState（上）](https://segmentfault.com/a/1190000015615057)
+
+* [浅出深入setState（下）](https://segmentfault.com/a/1190000015821018)
+
+  > 作者：[边城到此莫若](https://segmentfault.com/u/bianchengdaocimoruo)
+  >
+  > 文章介绍：上篇主要介绍`setState`异步的原理和使用，下篇通过对React源码中事务的使用机制，介绍了`setState`的模拟异步的实现原理，以及介绍了同步的使用场景。
+  >
+  > 推荐指数：🌟🌟🌟
