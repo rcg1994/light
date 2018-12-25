@@ -187,5 +187,3 @@ class App extends Component {
 
 有兴趣的请联系我！！服务包您满意的那种！！
 
-<div style="text-align: right;margin-top: 20px">Good luck！<br /> 2018-11-18 厦门</div>
-
