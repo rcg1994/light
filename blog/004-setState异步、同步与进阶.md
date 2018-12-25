@@ -12,9 +12,9 @@ this.setState({
 
 ```javascript
 class App extends Component {
-	state = {
-        count: 0
-	}
+    state = {
+          count: 0
+    }
 
     componentDidMount(){
         this.setState({count: this.state.count + 1})
@@ -33,9 +33,9 @@ class App extends Component {
 
 ```javascript
 ...
-this.setState({count: this.state.count + 1}, ()=>{
-    console.log(this.state.count) // 1
-})
+  this.setState({count: this.state.count + 1}, ()=>{
+      console.log(this.state.count) // 1
+  })
 ...
 ```
 
@@ -43,8 +43,8 @@ this.setState({count: this.state.count + 1}, ()=>{
 
 ```javascript
 ...
-	this.setState({count: this.state.count + 1})
-	this.setState({count: this.state.count + 1})
+  this.setState({count: this.state.count + 1})
+  this.setState({count: this.state.count + 1})
 ...
 ```
 
@@ -52,8 +52,8 @@ this.setState({count: this.state.count + 1}, ()=>{
 
 ```javascript
 ...
-this.setState(prevState => {count: prevState.count + 1});
-this.setState(prevState => {count: prevState.count + 1});
+  this.setState(prevState => {count: prevState.count + 1});
+  this.setState(prevState => {count: prevState.count + 1});
 ...
 ```
 
@@ -63,19 +63,19 @@ this.setState(prevState => {count: prevState.count + 1});
 
 ```javascript
 ...
-	this.setState({ count: this.state.count + 1 });
-    console.log("console: " + this.state.count); // 0
-    this.setState({ count: this.state.count + 1 }, () => {
-      console.log("console from callback: " + this.state.count); // 2
-    });
-    this.setState(prevState => {
-      console.log("console from func: " + prevState.count); // 1
-      return {
-        count: prevState.count + 1
-      };
-    }, ()=>{
-      console.log('last console: '+ this.state.count)
-    });
+  this.setState({ count: this.state.count + 1 });
+  console.log("console: " + this.state.count); // 0
+  this.setState({ count: this.state.count + 1 }, () => {
+    console.log("console from callback: " + this.state.count); // 2
+  });
+  this.setState(prevState => {
+    console.log("console from func: " + prevState.count); // 1
+    return {
+      count: prevState.count + 1
+    };
+  }, ()=>{
+    console.log('last console: '+ this.state.count)
+  });
 ...
 ```
 
