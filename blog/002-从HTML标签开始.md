@@ -10,7 +10,7 @@
 
 简单来说，你访问一个网页，不管这个网页多酷炫，功能多复杂，它们都是从一个个HTML标签开始建立的。就像谷歌的真面目是这样的：
 
-![谷歌](http://pi33bbo0e.bkt.clouddn.com/WX20181112-220832@2x.png)
+![谷歌](http://upload-images.jianshu.io/upload_images/2180775-86b4c5e78f3b7970.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 页面就是由右边这些密密麻麻的标签组成的。浏览器再根据标签和样式规则渲染出对应的页面展示到我们眼前。
 
@@ -67,5 +67,3 @@
 **网站搭建（PC、H5、前后端全包，我们有团队的哦），APP开发（安卓和IOS），都是有成功案例的哦。**
 
 有兴趣的请联系我！！服务包您满意的那种！！
-
-<div style="text-align: right;margin-top: 20px">Good luck！<br /> 2018-11-12 厦门</div>
