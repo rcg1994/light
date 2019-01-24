@@ -32,6 +32,7 @@
 ```javascript
 |-- AtlasConfig // react-native-atlas 的配置目录
 |-- Generators // plop 的模板文件
+|-- Script // 一些命令行工具
 |-- App // 应用目录
 	|-- Components // 组件库
 	|-- Config // 项目配置
