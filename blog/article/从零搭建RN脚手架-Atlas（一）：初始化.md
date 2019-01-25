@@ -62,20 +62,6 @@ atlas
 
 其中，调试工具 debug 使用的是：[react-native-debugger](https://github.com/jhen0409/react-native-debugger)，请预先在自己电脑上装好。
 
-#### 待办
-
-以下是Atlas的一些特点或打算引入的第三方库。
-
-- [ ] 引入配套组件库 react-native-atlas
-- [ ] 集成 Redux
-- [ ] 集成 React-Navigation
-- [ ] 集成 Redux-Saga
-- [ ] 数据持久化
-- [ ] 基于Plop的页面自动生成
-- [ ] 错误奔溃采集
-- [ ] 全局命令
-- [ ] 引入 Iconfont 字体图标
-
 #### 题外话
 
 React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的JS框架 React 在原生移动应用平台的衍生产物。作为风风火火了三四年的老兵，RN会过气么？

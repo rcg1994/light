@@ -22,3 +22,13 @@ imp ->     import moduleName from 'module'
 
 2、在VSCode里搜索experimentalDecorators, settings.json中设置javascript.implicitProjectConfig.experimentalDecorators为true。
 
+#### eslint和格式化
+
+直接按官方文档安装到项目就可以了
+
+```
+"eslint.autoFixOnSave": true,
+"prettier.eslintIntegration": true,
+```
+
+设置这两个，一个是保存文件时自动修复。一个是格式化代码时按eslint规则来格式化。
