@@ -12,7 +12,7 @@ yarn add react-native-gesture-handler // 这个手势库之前没见过啊
 react-native link react-native-gesture-handler
 ```
 
-突然发现，现在 react-navigation 已经更新到 3.x 了，而之前项目用的版本还是 1.0 的～惭愧
+突然发现，现在 react-navigation 已经更新到 3.x 了，而之前项目用的版本还是 1.0 的～惭愧！需要找个时间再过一下3.x的文档才行。
 
 #### 编写一个简单的包含导航的APP
 
