@@ -20,9 +20,9 @@
 #### 待办（不断更新，不分先后）
 
 - [x] 引入配套组件库 react-native-atlas
-- [ ] 集成 Redux
+- [x] 集成 Redux
 - [x] 集成 React-Navigation
-- [ ] 集成 Redux-Saga
+- [x] 集成 Redux-Saga
 - [ ] 数据持久化
 - [ ] 基于Plop的页面自动生成
 - [ ] 错误奔溃采集
